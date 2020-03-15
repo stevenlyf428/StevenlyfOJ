@@ -1,0 +1,26 @@
+{
+    //这一行为字体大小
+    "editor.fontSize": 14,
+    //运行代码后将光标移到终端
+    "code-runner.preserveFocus": false,
+    //将 MacOS 终端集成到 VSCode 中
+    "code-runner.runInTerminal": true,
+    //运行代码前保存
+    "code-runner.saveFileBeforeRun": true,
+    //运行代码时清空之前的输出
+    "code-runner.clearPreviousOutput": true,
+    //运行代码是 cd 到 cpp 文件所在目录
+    "code-runner.fileDirectoryAsCwd": true,
+    //这里只保存了 C/C++ 的编译命令
+    "code-runner.executorMap": {
+        "c": "gcc $fileName -o build/$fileNameWithoutExt && ./build/$fileNameWithoutExt",
+        "cpp": "g++ $fileName -o build/$fileNameWithoutExt && ./build/$fileNameWithoutExt",
+    },
+    "files.associations": {
+        "*.tpp": "cpp"
+    },
+    "terminal.integrated.shell.windows": "cmd.exe"
+    // "python.pythonPath": "/usr/bin/python3"
+    //"python.pythonPath": "/Users/liuyafei/anaconda3/lib/python3.6"
+}
+
