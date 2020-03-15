@@ -5,6 +5,8 @@
 　2. 第二项不超过 n；
 　3. 从第三项开始，每一项小于前两项的差的绝对值
 */
+
+//xiaoceshi
 int ans = 0;
 const int MOD = 1e4;
 void mod(int &d)
