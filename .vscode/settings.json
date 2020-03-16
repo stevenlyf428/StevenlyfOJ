@@ -19,7 +19,8 @@
     "files.associations": {
         "*.tpp": "cpp"
     },
-    "terminal.integrated.shell.windows": "cmd.exe"
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "python.pythonPath": "/Users/liuyafei/anaconda3/bin/python"
     // "python.pythonPath": "/usr/bin/python3"
     //"python.pythonPath": "/Users/liuyafei/anaconda3/lib/python3.6"
 }
