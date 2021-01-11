@@ -13,15 +13,20 @@
     "code-runner.fileDirectoryAsCwd": true,
     //这里只保存了 C/C++ 的编译命令
     "code-runner.executorMap": {
-        "c": "gcc $fileName -o build/$fileNameWithoutExt && build/$fileNameWithoutExt",
-        "cpp": "g++ $fileName -o build/$fileNameWithoutExt && build/$fileNameWithoutExt",
+        // "c": "gcc $fileName -o build/$fileNameWithoutExt && build/$fileNameWithoutExt",
+        // "cpp": "clang++ $fileName -o build/$fileNameWithoutExt && build/$fileNameWithoutExt",
+        // "c": "gcc $fileName -o $fileNameWithoutExt && $fileNameWithoutExt",
+        // "cpp": "clagg++ $fileName -o $fileNameWithoutExt && $fileNameWithoutExt"
     },
     "files.associations": {
         "*.tpp": "cpp",
         "vector": "cpp"
     },
     // "terminal.integrated.shell.windows": "cmd.exe",
-    "python.pythonPath": "/Users/liuyafei/anaconda3/bin/python"
+    // "python.pythonPath": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python"
     // "python.pythonPath": "/usr/bin/python3"
-    //"python.pythonPath": "/Users/liuyafei/anaconda3/lib/python3.6"
+    "python.pythonPath": "/Users/liuyafei/anaconda3/envs/tensorflow/bin/python",
+    "editor.cursorStyle": "line-thin",
+    "C_Cpp.default.customConfigurationVariables": {}
+    // "python.formatting.provider": "yapf"
 }
